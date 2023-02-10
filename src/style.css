@@ -6,10 +6,12 @@ body {
     position: absolute;
     /* width: 550px;
     height: 868px; */
-    left: 65px;
-    top: 53px;
+   
+    left: 42px;
+    top: 10px;
 
-    background: #23252C;
+    background: url(./bg1.jpg);
+    background-size: 600%;
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -21,20 +23,25 @@ body {
     left: 90%;
     top: 0%;
     background-color: rgb(0, 234, 255);
-    
+    align-self: center;
     border-radius: 10px 10px 10px 10px;
 
 
 
 }
 
+
+    
 header{
     position: absolute;
     width: 317px;
     height: 317px; 
     
     
-    background-image: url(./my-dp.jpg);
+    background: url(./my-dp1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 10px 10px 0px 0px;
 
 }
@@ -46,7 +53,7 @@ footer{
     width: 100%;
     height: 64px;
   
-    top: 716px;  /* container height - footer height*/
+    top: 714px;  /* container height - footer height*/
 
     background: #161619;
     border-radius: 0px 0px 10px 10px;
@@ -92,6 +99,7 @@ footer{
     font-size: 12px;
     text-align: center;
     margin-top: 10%;
+    color:gold
 }
 
 main{

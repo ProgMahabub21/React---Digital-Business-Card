@@ -17,13 +17,13 @@ export default function Body() {
             <div>
                 <button className="button" onClick={() => window.location = 'mailto:imahbub.1999@gmail.com'}>
                     <SocialIcon network="email" bgColor="white" fgColor="black" style={{ height: 30, width: 30 }}/>Email</button>
-                <button className="lkd"><SocialIcon url="https://www.linkedin.com/in/md-mahabub-5b3853177/" 
+                <button className="lkd" onClick={() => window.location.href="https://www.linkedin.com/in/md-mahabub-5b3853177/"} ><SocialIcon network="linkedin"
                 style={{ height: 25, width: 25 }} bgColor="white"  />Linkedin</button>
             </div>
 
             <div>
                 <h3 className="about--title">About</h3>
-                <p className="about--content">I am a Frontend Developer. I am learning React, a popular js library and Next.js for my developement skill purpose.
+                <p className="about--content">I am a Frontend Developer. I am learning React, a popular js library and Next.js for projects developement purpose.
                 I am highly interested in Full-Stack Web development with Js. I try to develop my projects with best practices and 
                 following standards. I love learning new things. I am also a researcher in Blockchain Technology field.
                 I are persuing my Bachelors degree in Computer Science & Engineering (CSE) from American International University-Bangladesh. </p>
